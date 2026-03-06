@@ -22,7 +22,8 @@
     },
   "require": {
     "composer/installers": "^1.11",
-    "mautic/core-lib": "^6.0"
+    "mautic/core-lib": "^6.0",
+    "acquia/mc-cs-plugin-custom-objects": "6.x-dev"
   },
   "require-dev": {
     "codeception/codeception": "^5.1",
@@ -110,6 +111,10 @@
   },
   "repositories": [
     {
+      "type": "vcs",
+      "url": "https://github.com/WebAnyOne/mc-cs-plugin-custom-objects"
+    },
+    {
       "type": "path",
       "url": "app",
       "options": {
@@ -180,6 +185,9 @@
     "installer-paths": {
       "app": [
         "type:mautic-core"
+      ],
+      "plugins/CustomObjectsBundle": [
+        "acquia/mc-cs-plugin-custom-objects"
       ],
       "plugins/{$name}": [
         "type:mautic-plugin"
