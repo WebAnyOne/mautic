@@ -11,13 +11,13 @@
             "version": "6.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/WebAnyOne/mc-cs-plugin-custom-objects.git",
-                "reference": "db74267d11ddfe159accf99757a9d4c009299ba7"
+                "url": "git@github.com:WebAnyOne/mc-cs-plugin-custom-objects.git",
+                "reference": "1ad5610128413a3b07e070c05b469b3a5e6e7ceb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WebAnyOne/mc-cs-plugin-custom-objects/zipball/db74267d11ddfe159accf99757a9d4c009299ba7",
-                "reference": "db74267d11ddfe159accf99757a9d4c009299ba7",
+                "url": "https://api.github.com/repos/WebAnyOne/mc-cs-plugin-custom-objects/zipball/1ad5610128413a3b07e070c05b469b3a5e6e7ceb",
+                "reference": "1ad5610128413a3b07e070c05b469b3a5e6e7ceb",
                 "shasum": ""
             },
             "require": {
@@ -79,10 +79,9 @@
             ],
             "support": {
                 "issues": "https://github.com/acquia/mc-cs-plugin-custom-objects/issues",
-                "wiki": "https://github.com/acquia/mc-cs-plugin-custom-objects/wiki",
-                "source": "https://github.com/WebAnyOne/mc-cs-plugin-custom-objects/tree/6.x"
+                "wiki": "https://github.com/acquia/mc-cs-plugin-custom-objects/wiki"
             },
-            "time": "2026-03-06T20:34:27+00:00"
+            "time": "2026-03-06T21:07:01+00:00"
         },
         {
             "name": "aws/aws-crt-php",
